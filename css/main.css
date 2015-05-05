@@ -1,0 +1,320 @@
+
+/*****GENERAL STYLE*****/
+/*style applies to ALL elements on all pages*/
+
+body {
+	font-family: 'Exo', sans-serif;
+	color: #4a4a4a;
+	padding-top: 70px; 
+}
+
+body p {
+	font-size: 18px;
+}
+
+body h2 {
+	font-size: 32px;
+	color: #4a4a4a;
+}
+
+.row {
+	margin-bottom: 30px;
+}
+
+
+	/*****JUMBOTRONS*****/
+		/*Stylings for jumbotrons on various pages.*/
+
+	#home-jumbo .jumbotron {
+		height: 400px;
+		background-image: url("../images/schnett60wide.jpg");
+		background-repeat:no-repeat;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover;
+		background-position:center;
+		opacity: 0.8;
+	}
+
+	#story-jumbo .jumbotron {
+		height: 400px;
+		background-image: url("../images/computer3.jpg");
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover;
+		background-position:center;
+		opacity: 0.8;
+	}
+
+
+	#resume-jumbo .jumbotron {
+		height: 400px;
+		background-color: black;
+		background-image: url("../images/computer2-grey.jpg");
+		background-repeat:no-repeat;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover;
+		background-position:center;
+		opacity: 0.5%;
+	}
+
+	.jumbotron h1, h2 {
+		color: #fff;
+		font-size: 58px;
+	}
+
+	.jumbotron h2 {
+		color: #fff;
+	}
+
+
+
+	/*****MAIN-HEADING *****/
+	/*Stylings for the MAIN-HEADING content areas.*/
+
+	.main-heading  {
+		padding-top: 1.0em;
+	}
+
+	.main-heading h3 {
+		line-height: 1.5em;
+		font-size: 28px;
+		padding: 10px 0;
+	}	
+
+	.main-heading h3 strong {
+		font-size: 48px;
+	}
+
+	
+
+	/*****MAIN 2 *****/
+	/*Stylings for the MAIN2 content areas.*/
+
+	.main2 {
+		background-color: #f2f2f2;
+		padding-top: 30px;
+		margin-bottom: -15px;
+	}
+
+	#ironyard img {
+		height: 250px;
+		width: 250px;
+		padding-top: 0.3em;
+		padding-bottom: 0.3em;
+		position: center;
+	}
+
+	#devs img {
+		height: 200px;
+		width: 300px;
+		padding-top: 0.3em;
+		padding-bottom: 0.3em;
+		position: center;
+		border-radius: 50%;
+	}
+
+	#books img {
+		height: 200px;
+		width: 300px;
+		padding-top: 0.3em;
+		padding-bottom: 0.3em;
+		position: center;
+		border-radius: 50%;
+	}
+
+	.main2 p {
+		margin-top: 1em;
+	}
+
+
+
+	/*****MAIN 3 *****/
+	/*Stylings for the MAIN3 content areas.*/
+
+	.main3 {
+		padding-top: 45px;
+		margin-bottom: -15px;
+	}
+
+	.main3 img {
+		height: 250px;
+		width: 250px;
+		padding-top: 0.3em;
+		padding-bottom: 0.3em;
+		position: center;
+	}
+
+	.main3 p {
+		margin-top: 1em;
+	}
+
+
+
+	/*****VENMO*****/
+	/*Donate via venmo*/
+
+	#venmo-home {
+		background-color: #f2f2f2;
+		padding-top: 30px;
+		margin-bottom: -15px;
+	}
+
+
+	/*****BOTTOM-QUOTE*****/
+	/*Stylings for the MAIN3 content areas.*/
+
+	.bottom-quote {
+		background-color: #f2f2f2;
+	}
+
+	.bottom-quote h3 {
+		padding-top: 0.2em;
+	}
+
+
+	/*****BUTTONS *****/
+	/*Stylings for all buttons on the site.*/
+
+	.btn-default {
+		border-color: rgb(27, 134, 188);
+		border-width: 4px;
+		margin-top: 1.3em;
+		margin-bottom: 1.3em;
+		color: rgb(27, 134, 188);
+	}
+
+	.btn-default:hover {
+		background-color: rgb(27, 134, 188);
+		color: #fff;
+	}
+
+
+
+/*****NAVBAR STYLE*****/
+/*styling for global nav*/
+
+.navbar {
+	height: 80px;
+	padding-top: 0.3em;
+	padding-left: 1.0em;
+	margin-top: -70px;
+	margin-bottom: -20px;
+}
+
+
+.navbar li {
+	padding-left: 1.0em;
+	font-size: 20px;
+}
+
+.navbar-brand {
+	font-size: 24px;
+	margin-left: 0.5em;
+}
+
+
+/*****FOOTER STYLE*****/
+/*styling for global footer*/
+
+footer {
+	height: 80px;
+	background-color: #2f2f2f;
+	color: #fff;
+	margin: 0;
+}
+
+footer p {
+	font-size: 14px;
+	line-height: 1.3em;
+	margin: 0;
+}
+
+footer .fa {
+	font-size: 32px;
+	margin-top: 10px;
+	padding: 0.2em;
+	text-align: center;
+}
+
+footer li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+footer li a:hover {
+	text-decoration: none;
+	color: #CCCCCC;
+}
+
+
+
+	
+
+	
+
+#resume-main {
+	margin-top: 0;
+}
+
+
+#resume-more {
+	background-color: #f2f2f2;
+	padding-top: 30px;
+	margin-bottom: -15px;
+}
+
+
+.col-md-8 {
+	padding-top: 25px;
+}
+
+
+.col-md-4 .fa {
+	text-align: center;
+	vertical-align: center;
+	padding: 0.3em 1.0em;
+}
+
+
+
+#help-main {
+	padding-top: 5.0em;
+}
+
+
+#resume-main i {
+	padding-top: 0.4em;
+	padding-bottom: 0.3em;
+}
+
+#resume-main .col-lg-4 p {
+	padding-bottom: 2.0em;
+}
+
+#resume-main {
+	margin-top: -29px;
+	background-color: #f2f2f2;
+}
+
+#resume-position1 {
+	padding-top: 0.4em;
+	padding-bottom: 0.3em;
+}
+
+#resume-position1 .col-lg-4 p {
+	padding-bottom: 2.0em;
+}
+
+
+#resume-position2 {
+	padding-top: 0.4em;
+	padding-bottom: 0.3em;
+}
+
+#resume-position2 .col-lg-4 p {
+	padding-bottom: 2.0em;
